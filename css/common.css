@@ -138,7 +138,7 @@ main p {
   align-items: center;
 }
 
-/* 1023 이하 600 이상 */
+/* 1023 이하 */
 @media screen and (max-width: 1023px) {
   #wrap {
     width: 100%;
@@ -153,6 +153,7 @@ main p {
     width: 100%;
     float: none;
     text-align: center;
+    margin: 0 auto;
   }
 
   #sidePhoto img {
